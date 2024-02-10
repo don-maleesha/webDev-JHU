@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links</title>
+</head>
+<body>
+    <h1>Internal Links</h1>
+    <section>
+        We can link to a file in the same directory as this HTML file like this.
+         <div>
+            <a href="lists.html" title="HTML Lists" target="_blank">Click Here</a>
+         </div>
+         <div>
+            <a href="semantic-elements.html" title="HTML Semantic-Elements" target="_parent">
+                <div>Click Here</div>
+            </a>
+         </div>
+    </section>
+    <div>
+    <h1 id="top">Links to Sections of the Same page</h1>
+    <section>
+        <ul>
+            <li><a href="#introduction">introduction</a></li>
+            <li><a href="#features">features</a></li>
+            <li><a href="#team">team</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </section>
+    <section id="introduction">
+        <h3>Welcome to Our Website</h3>
+        <p>Discover the latest trends, insights, and innovations in our industry. We strive to provide valuable information to our visitors, ensuring a unique and enriching experience.</p>
+    </section>
+    <section id="features">
+        <h3>Key Features</h3>
+        <ul>
+            <li>Cutting-edge technology</li>
+            <li>User-friendly interface</li>
+            <li>24/7 customer support</li>
+            <li>Customizable options</li>
+        </ul>
+    </section>
+    <section id="team">
+        <h3>Meet Our Team</h3>
+        <p>We are a dedicated group of professionals working together to bring you the best experience. Get to know the individuals behind our success.</p>
+        <!-- Add team member details and photos here -->
+    </section>
+    <section id="contact">
+        <h3>Contact Information</h3>
+        <p>Have questions or feedback? Feel free to reach out to us!</p>
+        <address>
+          Email: <a href="mailto:info@example.com">info@example.com</a><br>
+          Phone: +94 77 123 4567<br>
+          Address: 456 Colombo Street, Kandy, Sri Lanka.
+        </address>
+    </section>
+    </div>
+    <div>
+        <p>Back to the top <a href="#top">Click Here</a></p>
+    </div>
+</body>
+</html>
